@@ -1,0 +1,1447 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.mission{
+ color:blue;
+
+}
+.ministers{
+
+}
+.facebook1{
+    width:20%;
+    height:20%;
+}
+.color {
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    background-image: url(resources.jpg);
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/*BUTTON*/
+.button{
+    width:50px;
+    height:35px;
+    align-content:center;
+    border-radius:10px;
+    background-color:aqua;
+}
+
+/* VIDEO*/
+
+
+/*CONTACT FORM*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+.church-summary1 {
+    margin:auto;
+    width:80%;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin:auto;
+    width:80%;
+}
+
+
+
+.section-text img {
+    margin: auto;
+    width: 100%;
+    height: 62%;
+}
+.colorblog {
+     width: 100%;
+    height: 300px;
+   text-align: center;
+    font-size: 20px;
+   display:flex;
+   flex-direction:column;
+ }
+
+  
+    
+    
+
+.ministry {
+    width: 100%;
+    height: 300px;
+    background-image: url(gather.png);
+    text-align: center;
+    font-size: 20px;
+    background-color: red;
+}
+.color h1{
+    color:darkorange;
+}
+.ministry h1{
+    color:darkorange;
+}
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 230px;
+    height: 100%;
+    background: #F0EEF4;
+    transition: all 0.5s ease;
+    display: none;
+}
+
+
+/* RESOURCE FILES*/
+
+.resources{
+    margin:auto;
+    width:80%;
+    height:50vh;
+    background-color:aliceblue;
+}
+.little-sectionresources .fellowship {
+    margin:auto;
+    background-color: #F0EEF4;
+    width: 100%;
+    height: 12vh;
+}
+.little-sectionresources {
+    margin: auto;
+    width: 80%;
+   
+    display: flex;
+    justify-content: center;
+}
+    .sidebar header {
+        font-weight: 600;
+        line-height: 60px;
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        background: #646D86;
+        cursor: pointer;
+        user-select: none;
+    }
+    .sidebar ul li a {
+        display: block;
+        font-size: 15px;
+        line-height: 45px;
+        padding-left: 40px;
+        color:black;
+        width: 100%;
+        height: 100%;
+        text-decoration:none;
+        border-top: 1px solid #747a84;
+        border-bottom: 1px solid black;
+        transition: all .4s ease;
+    }
+ul li:hover a {
+    padding-left: 10px;
+    cursor: pointer;
+}
+#check{
+    display:none;
+}
+label #btn, label #cancel {
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+}
+label #btn {
+    color:white;
+    left: 20px;
+    top: 270px;
+    padding: 1px 1px;
+    transition: all .5s;
+    background-color: #1F2121;
+    display:none;
+    
+}
+label #cancel {
+    transition: all .449s ease;
+    left: -195px;
+    top: 260px;
+    color: white;
+    font-size: 20px;
+    z-index: 111;
+    padding: 1px 1px;
+    background-color: cornflowerblue;
+    display:none;
+}
+#check:checked ~ .sidebar {
+    left: 0;
+}#check:checked ~ .label #btn {
+    left:250px;
+    opacity:0;
+    pointer-events:none;
+}
+#check:checked ~ label #cancel {
+    left:195px;
+}
+  
+image{
+    width:100%;
+}
+
+body {
+    background-color: white;
+    position: relative;
+}
+/* MENU BAR */
+.menu-bar {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0EEF4;
+    top:-4px;
+    position:sticky;
+    width:90%;
+    margin:auto;
+}
+
+
+/*IMAGE-SLIDER*/
+.frame-section {
+    display:flex;
+    width: 100%;
+    height: 400px;
+    overflow:hidden;
+    justify-content:center;
+   
+    
+}
+.slider1{
+    width:150%;
+   
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+/*IMAGE WRAPPER*/
+.image-wrapper {
+    margin:auto;
+    width: 80%;
+    height: 90%;
+    overflow-x:hidden;
+    background-color:bisque;
+    text-align: center;
+    font-size: 22px;
+    background-repeat: no-repeat;
+   
+}
+/*IMAGE-FAITH*/
+.image-faith {
+    margin:auto;
+    width: 80%;
+    height: 90%;
+    background-image: url(faith2.jpg);
+    text-align: center;
+    font-size: 22px;
+    background-repeat: no-repeat;
+   /*IMAGE-GALLERY*/ 
+}.image-gallery {
+    margin:auto;
+    width: 80%;
+    height: 100%;
+    background-image: url(dem.jpg);
+    text-align: center;
+    font-size: 22px;
+   
+    background-size:contain;
+   
+    
+}
+ /*IMAGE-PASTORS*/
+ .image-pastors {
+    margin:auto;
+    width: 80%;
+    height: 90%;
+    background-image: url(pastors.jpg);
+    text-align: center;
+    font-size: 22px;
+    background-repeat: no-repeat;
+    
+}
+
+.image-mission {
+    margin:auto;
+    width: 80%;
+    height: 400px;
+    background-image: url(daddy.jpg);
+    text-align: center;
+    font-size: 22px;
+    background-repeat: no-repeat;
+}
+/*  BLOG FILES*/
+.image-BLOG {
+    margin: auto;
+    width: 86%;
+    height: 400px;
+    background-image: url(blog.png);
+    text-align: center;
+    font-size: 22px;
+    background-repeat: no-repeat;
+}
+/*IMAGE-LEGACY*/
+.image-legacy {
+    margin: auto;
+    width: 86%;
+    height: 400px;
+    background-image: url(legacy.jpg);
+    text-align: center;
+    font-size: 22px;
+    background-repeat: no-repeat;
+
+}
+/*IMAGE-UP-COMING*/
+.image-upcoming {
+    margin: auto;
+    width: 86%;
+    height: 400px;
+    background-image: url(event.jpg);
+    text-align: center;
+    font-size: 22px;
+    background-repeat: no-repeat;
+}
+/*IMAGE-RESOURCES*/
+.image-resources {
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    background-image: url(resources.jpg);
+    text-align: center;
+    font-size: 22px;
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+/*LIVESTREAM*/
+.image-livestream {
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    background-image: url(livestream.jpg);
+    text-align: center;
+    font-size: 22px;
+    
+    background-size:contain;
+}
+
+/*
+    COLOR SECTION
+*/
+.red {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    background-image:url(food.jpg);
+    background-size:contain;
+    background-repeat: round;
+    flex: 1;
+}
+.red1 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    background-image:url(prayer.jpg);
+    background-size:contain;
+    background-repeat: round;
+    flex: 1;
+}
+.red2 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    background-image:url(ride.jpg);
+    background-size:contain;
+    background-repeat: round;
+    flex: 1;
+}
+.red3 {
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    background-image:url(clothe.jpg);
+    background-size:contain;
+    background-repeat: round;
+    flex: 1;
+}
+
+
+.black {
+    width: 100%;
+    height: 50%;
+    background-color: #E5E5E5;
+    flex: 2;
+}
+
+.resources{
+    margin:auto;
+    width:80%;
+    display:flex;
+  
+   
+}
+
+/*GALERY-VIDEOS*/
+
+.row{
+   
+    background-color:antiquewhite;
+ 
+   
+ 
+}
+
+.col {
+    display: flex;
+    top: 3px;
+    height:45vh;
+    width: 100%;
+    background-color: aliceblue;
+}
+.video-player {
+   top:0;
+
+}
+.fa {
+    margin-left: 4px;
+}
+.menu-bar ul {
+    display:flex;
+    list-style:none;
+    color:#fff;
+}
+.image{
+   
+    max-height:15vh;
+    max-width:15vh;
+    margin-left:100px;
+}
+.church-name {
+    margin-left: -240px;
+    padding-top: 15px;
+    color: #D7D6CD;
+}
+.church-name a {
+    text-decoration:none;
+    color: #D7D6CD;
+    margin-left:-710px;
+    justify-content:center;
+}
+.image1 {
+    max-height: 15vh;
+    max-width: 15vh;
+    margin-left: -143px;
+    z-index:-2;
+    display:inline-flex;
+}
+.image1 a {
+    text-decoration:none;
+}
+.image2 {
+    max-height: 6vh;
+    max-width: 6vw;
+    margin-left: -30px;
+    z-index: -5;
+ }
+.image2 a{
+    text-decoration:none;
+}
+
+   .menu-bar ul li {     
+        margin-top:3px;
+       padding:15px;
+      } 
+   .menu-bar ul{     
+       margin-left:-10px;
+      
+      }   
+       
+  
+.menu-bar ul li a {
+        text-decoration: none;
+        color: #090808;
+        font-size:15px;
+        display:flex;
+}
+    .menu-bar ul li:hover {
+        background-color: #F0EEF4;
+        border-radius: 4px;
+    }
+.sub-menu1{
+    display:none;
+    margin-top:2px;
+    width:16%;
+    float:left;
+}
+
+.menu-bar ul li:hover .sub-menu1 {
+    display: block;
+    background-color: #F0EEF4;
+    margin-top: 1px;
+    margin-left: -15px;
+    position: absolute;
+    cursor: pointer;
+}
+
+    .menu-bar ul li:hover .sub-menu1 ul {
+        width: 170px;
+        text-align: left;
+     
+      
+        display: block;
+    }
+    .menu-bar ul li:hover .sub-menu1 ul li {
+       
+        border-bottom: 2px dotted #E1C8DF;
+        background: transparent;
+        border-radius: 0;
+    }
+.menu-bar ul li:hover .sub-menu1 ul li a:hover{
+ color: #E1C8DF;
+}
+.fa-angle-right{
+    float:right;
+    color:black;
+}
+.fa-angle-right:hover{
+    float: right;
+}
+.sub-menu2{
+    display:none;
+}
+.hover-me:hover .sub-menu2 {
+    display: block;
+    position: absolute;
+  
+    margin-left: 120px;
+    background: transparent;
+    background-color: #F0EEF4;
+}
+h1 {
+    color: #6D576D;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* CHURCH SUMMARY*/
+.church-summary {
+    border: 4px solid aliceblue;
+    margin: auto;
+    width: 80%;
+    display: flex;
+    height: 100vh;
+    font-size: 9px;
+    padding: 10px;
+}
+.church-summaryministers {
+    margin:auto;
+    display: flex;
+    width:80%;
+    height: 100%;
+    font-size: 9px;
+    padding: 10px;
+}
+.ministers img{
+    width:280px;
+    align-items:center;
+}
+
+.church-summarymission {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    height: 100vh;
+    font-size: 9px;
+    margin-top: 50px;
+    border: 4px solid aliceblue;
+}
+
+.section-photo {
+    height: 90vh;
+    width: 50vw;
+    justify-content: center;
+    background-image: url(pastored.jpeg);
+    background-repeat: no-repeat;
+
+    /*FAITH-SECTION*/
+}.section-faith {
+    height: 90vh;
+    width: 50vw;
+    justify-content: center;
+    background-image: url(faith1.jpg);
+    background-repeat: no-repeat;
+}
+.section-photopapa {
+    height: 90vh;
+    width: 50vw;
+    justify-content: center;
+    background-image: url(pastored.jpeg);
+    background-repeat: no-repeat;
+}
+.section-photomama {
+    height: 80%;
+    width: 40%;
+    justify-content: center;
+    background-image: url(mama.jpeg);
+    background-repeat: no-repeat;
+    margin-top:40px;
+}
+.section-text {
+    flex: 1;
+}
+.mini {
+   
+}
+ 
+.cut{
+    height:400px;
+    width:450px;
+}
+.meet-photo {
+    flex: 1;
+    background-image: url(pastored.jpeg);
+}
+
+.photo {
+   
+    background-image: url(pastored.jpeg);
+}
+.photopastor {
+   
+    background-image: url(pastored.jpeg);
+}
+
+.meet-pastors {
+    width: 100%;
+  
+    display: flex;
+    margin-top: 40px;
+    font-size: 9px;
+}
+.margin h3 {
+  
+    padding: 40px;
+}
+.church-summarymission.span {
+  font-size:1px;
+}
+.little-section {
+    margin: auto;
+    background-color: #F0EEF4;
+    width: 80%;
+    height: 12vh;
+}
+/*LITTLE SECTION1*/
+.little-section1 {
+    margin: auto;
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.little-sectionresources {
+    margin: auto;
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.little-section1blog {
+    margin: auto;
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+/*LITTLE SECTION 2*/
+
+.little-section2 {
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.little-section2faith {
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 230px;
+    margin-bottom: 60px;
+}
+.little-section2mission {
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+    margin-bottom: 60px;
+}
+.first {
+    margin: auto;
+    background-color: #F0EEF4;
+    border-color: red;
+    width: 80%;
+    height: 250px;
+    margin: auto 20px;
+    background-image: url(together.png);
+}.second {
+    background-color: #F0EEF4;
+    border-color: red;
+    width:100%;
+    height: 250px;
+    margin: auto 20px;
+    background-image: url(new.jpg);
+}
+.third {
+    margin: auto;
+    background-color: #F0EEF4;
+    border-color: red;
+    width: 80%;
+    height: 250px;
+    margin: auto 20px;
+    background-image: url(distance.png);
+}
+.fourth {
+    margin: auto;
+    background-color: #F0EEF4;
+    border-color: red;
+    width: 80%;
+    height: 250px;
+    margin: auto 20px;
+    background-image: url(origin.png);
+}
+.section-text {
+    padding: 12px;
+    font-size: 18px;
+    color: #302F31;
+   
+}
+
+.section-text h1 {
+   text-align:center;
+}
+.span {
+    float: left;
+    margin-left: 40px;
+    margin-top:20px;
+    font-size:14px;
+ 
+}
+.photo {
+    max-height: 300px;
+    max-width: 40vw;
+    margin-left:90px;
+}
+.church-text, h3{
+    text-align:center;
+   
+}
+.church-text {
+    font-size:16px;
+    margin-bottom:9px;
+    margin-left:30px;
+   
+}
+.fellowship {
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 22px;
+    color: #D7D6CD;
+  }
+.fellowship1 {
+    font-size: 27px;
+    text-align: center;
+   
+    padding-top: 12px;
+    color: #4F4949;
+}
+
+.join {
+    padding-top: 25px;
+    color: #4F4949;
+    font-size: 30px;
+}
+/* FOOTERS*/
+.footer {
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-contents {
+    margin: auto;
+    padding-top: 10px;
+    width: 100%;
+    height: 400px;
+    background-color: #9C9A8D;
+    display: flex;
+    justify-content: center;
+}
+.top{
+    margin: 40px;
+    font-size:16px;
+    font-family:sans-serif;
+  
+    
+}
+
+.footer-bottom {
+    margin: auto;
+    background-color: #F1F0E8;
+    margin-bottom: 0;
+    align-items: center;
+    margin-top: 0px;
+    width: 100%;
+    font-family: Haettenschweiler, sans-serif;
+}
+.footer-contents.top ul li{
+    float:left;
+}
+.top ul{
+    list-style:none;
+    padding:10px;
+}
+
+.facebook{
+    width: 21px;
+    height:21px;
+}
+.facebook1{
+    width: 40px;
+    height:40px;
+}
+
+@media all and (max-width: 1241px) {
+    .meet-photo {
+        flex: 2;
+        height: 60vh;
+        width: 100%;
+        padding-right: 100px;
+    }
+    .ministers {
+        height: 100%;
+        width: 80%;
+      
+    }
+    .section-text {
+        width: 100%;
+        margin-top: auto;
+    }
+}
+@media all and (max-width: 1024px) {
+    .image-wrapper {
+        width: 100%;
+    }
+    .section-text{
+        font-size:16px;
+    }
+    .ministers {
+        height: 100%;
+        width: 100%;
+     
+        
+    }
+    .span {
+       
+        font-size: 11px;
+    }
+    
+
+    .section-text {
+        width: 100%;
+        margin-top:auto;
+    }
+
+    .section-photo {
+        width: 10%;
+    }
+
+    .meet-photo {
+        flex: 2;
+        height: 55vh;
+        width: 100%;
+        margin-bottom: 20px;
+        padding-right: 100px;
+    }
+}
+@media all and (max-width:450px){
+    .meet-photo{
+        justify-content:center;
+        padding-left:30px;
+    }
+}
+@media(max-width:1198px) {
+    .section-text {
+        width: 100%;
+        margin-top: auto;
+        font-size:14px;
+    }
+}@media(max-width:1094px) {
+    .section-text {
+        width: 100%;
+        margin-top: auto;
+        font-size:14px;
+    }
+}
+@media(max-width:1300px) {
+    menu-bar ul {
+        width: 100%;
+        background: red;
+        align-content: flex-start;
+    }
+
+    .little-section2mission {
+        margin-top: 60px;
+    }
+
+    .photomoon {
+        justify-content: center;
+        margin-left: 180px;
+    }
+
+    .sidebar header {
+        display: none;
+    }
+
+    .little-section2 {
+        margin-top: 150px;
+        margin-right: 40px;
+    }
+
+    .section-photo {
+        margin: 20px auto;
+        margin-top: 80px;
+        height: 80%;
+        width: 50%;
+        justify-content: center;
+        background-image: url(new.jpg);
+    }
+
+    .section-photopastor {
+        margin: 20px auto;
+        margin-top: 360px;
+        height: 40vh;
+        width: 92%;
+        justify-content: center;
+        background-image: url(new.jpg);
+    }
+
+    .church-summarymission {
+        display: block;
+    }
+
+    .section-text {
+        width: 100%;
+        margin-top: auto;
+    }
+}
+
+
+@media(max-width:940px) {
+
+    .color {
+        margin-bottom:40px;
+    }
+    .ministers {
+        height: 100%;
+        width: 100%;
+      
+    }
+    .church-summaryministers{
+        height:100%;
+        width:100%;
+    }
+    .section-photo {
+        margin-left: 0px;
+        margin-top: 260px;
+        height: 50vh;
+        width: 100%;
+        background-image: url(.jpg);
+    }
+    .section-photomama {
+        height: 60%;
+      
+        width: 80%;
+        
+        background-image: url(mama.jpeg);
+        background-repeat: no-repeat;
+       
+    }
+    .image-gallery {
+        margin: auto;
+        width: 85%;
+        height: 100%;
+        text-align: center;
+        font-size: 22px;
+       
+        background-size: contain;
+    }
+    
+    
+    .photomoon{
+        width:98%;
+        margin-top:40px;
+        margin-left:20px;
+    }
+    .little-section2mission {
+        margin-top: 400px;
+        margin-bottom: -90px;
+    }
+
+    .little-section2 {
+        margin-top: 20px;
+    }
+    .meet-photo{
+     
+        height:55vh;
+       
+        margin-top:230px;
+        margin-bottom:20px;
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+  h3{
+     
+    }
+
+    .menu-bar ul li {
+        flex-direction: column;
+        margin: 0;
+        font-size: 30px;
+        padding-right: 0px;
+        margin-left: 1px;
+        width: 100%;
+    }
+    .little-section2{
+        
+        margin-top:30px;
+     
+    }
+
+
+    .menu-bar {
+        flex-direction: column;
+        display: block;
+        width: 100vw;
+    }
+
+    .church-name {
+        margin-left: -250px;
+    }
+
+    #check {
+        display: none;
+        margin-left: 600px;
+        float: right;
+        margin-top: -40px;
+    }
+
+    .frame-section {
+        overflow-x: hidden;
+        font-size: 25px;
+        width: 90vw;
+        height: 50vh;
+        flex-direction: column;
+    }
+
+    .image-wrapper {
+        overflow-x: hidden;
+        font-size: 13px;
+        width: 90vw;
+        height: 100vh;
+        justify-content: center;
+        background-size: 600px;
+    }
+
+    .church-summary {
+        display: block;
+       
+       
+    }
+
+      
+    .little-section1, .color {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background-color: none;
+        margin-top: 0px;
+        background-size: 600px;
+        overflow-x: hidden;
+    }
+
+   .join {
+        font-size: 20px;
+        display: block;
+        width: 100%;
+  
+    }
+
+    .footer-bottom {
+        margin-bottom: 30px;
+    }
+
+    .fellowship1 {
+        font-size: 16px;
+    }
+
+    .footer-contents, .top {
+        width: 100%;
+        font-size: 12px;
+        margin: 0 auto;
+        margin-top: 8px;
+    }
+
+    .footer-contents, .top {
+        width: 100%;
+        height: 250px;
+    }
+
+    
+    .margin h3 {
+        font-size: 12px;
+        padding: 40px;
+    }
+
+    @media(max-width:1200px) {
+
+        .menu-bar ul li a {
+            padding-left: 90px;
+        }
+        .sidebar{
+            display:none;
+        }
+        .footer-contents {
+            padding-top: 30px;
+            width: 100%;
+            height: 400px;
+            background-color: #9C9A8D;
+         
+        }
+    }
+
+
+    @media all and (max-width:642px) {
+        .section-photo {
+             width: 100%;
+          }
+        .section-photomama {
+            height: 50%;
+           
+            width: 100%;
+            background-image: url(mama.jpeg);
+            background-repeat: no-repeat;
+            margin-top: 20px;
+            justify-content:center;
+        }
+         
+         
+       
+    }
+    @media(max-width:980px) {
+        .col {
+            display: block;
+           
+        }
+        .row {
+            background-color: antiquewhite;
+            display:flex;
+        }
+        .menu-bar {
+            width: 100%;
+        }
+        .little-section1 .third{
+            width:100%;
+        }
+        .photomoon {
+            height: 40%;
+            width: 75%;
+            background-size:auto;
+            margin-left:80px;
+         }   
+         .image-mission{
+             width:92%;
+         }
+       
+        .section-p{
+            margin:auto;
+            width:100%;
+            height:50%;
+         
+            
+        }
+        .section-text img{
+            margin:auto;
+            height:50%;
+            width:100%;
+          
+        }
+        .little-section2mission{
+          margin-top:160px;
+          margin-bottom:30px;
+        }
+     
+
+        .image-legacy {
+            margin: auto;
+            width: 100%;
+            height: 400px;
+            background-image: url(legacy.jpg);
+            text-align: center;
+            font-size: 22px;
+            background-repeat: no-repeat;
+            background-size:contain;
+        }
+        .section-faith {
+            margin: auto;
+            height: 90vh;
+            width: 100%;
+            justify-content: center;
+            background-image: url(faith1.jpg);
+            background-repeat: no-repeat;
+            margin-top: 180px;
+            background-size: contain;
+        }
+        .image-faith {
+            margin:auto;
+            height: 100%;
+           
+            width: 80%;
+            justify-content: center;
+            background-image: url(faith2.jpg);
+            
+            background-size:contain;
+            
+        }.image-pastors {
+            margin:auto;
+            height: 90vh;
+            width: 100%;
+            justify-content: center;
+            background-image: url(pastors.jpg);
+            background-repeat: no-repeat;
+           
+            
+        }
+        .ministers img {
+            width: 280px;
+            align-items: center;
+            margin-left:100px;
+        }
+        
+        .church-summaryministers {
+            display:block;
+            height: 100%;
+            font-size: 9px;
+            padding: 10px;
+            background-color:aliceblue;
+        }
+        .section-photomama {
+            height: 50%;
+            margin: auto;
+            width: 50%;
+            background-image: url(mama.jpeg);
+            background-repeat: no-repeat;
+           
+            justify-content:center;
+            margin-top:285px;
+            background-size:contain;
+        }.section-photopapa {
+            height: 60%;
+            margin: auto;
+            width: 100%;
+            background-image: url(pastored.jpeg);
+            background-repeat: no-repeat;
+           
+            justify-content:center;
+            margin-top:200px;
+            background-size:cover;
+        }
+        .image-gallery {
+            margin: auto;
+            width: 85%;
+            height: 80%;
+            margin-left:50px;
+            text-align: center;
+            font-size: 22px;
+           
+            background-size: contain;
+        }
+        .ministers {
+            margin-bottom:90px;
+        }
+       
+        .church-summary {
+            width: 100%;
+            height: 100vh;
+            display: block;
+            margin-top: 40px;
+            font-size: 9px;
+        }
+
+        .church-summarymission {
+            width: 100%;
+            height: 100vh;
+            display: block;
+            
+            font-size: 9px;
+        }
+
+        .menu-bar ul li {
+            display: none;
+        }
+
+        .sidebar {
+            top: 16px;
+            position: fixed;
+            left: -250px;
+            width: 230px;
+            height: 100%;
+            background: #F0EEF4;
+            transition: all 0.5s;
+            display: block;
+            font-size: 12px;
+        }
+
+
+        label #btn {
+            color: white;
+            left: 20px;
+            top: 20px;
+            padding: 1px 1px;
+            transition: all .5s;
+            background-color: #1F2121;
+            display: block;
+            position: fixed;
+        }
+
+        label #cancel {
+            color: white;
+            top: 30px;
+            font-size: 12px;
+            padding: 1px 1px;
+            transition: all .44879s ease;
+            background-color: #1F2121;
+            display: block;
+            position: fixed;
+        }
+
+        #check:checked ~ label #cancel {
+            left: 210px;
+            display: block;
+            position: fixed;
+        }
+
+        .image {
+            max-height: 10vh;
+            max-width: 10vh;
+        }
+
+        .church-name {
+            padding-top: 10px;
+            color: #D7D6CD;
+        }
+
+            .church-name a {
+                text-decoration: none;
+                color: #D7D6CD;
+                margin-left: 610px;
+            }
+
+        .image1 {
+            max-height: 10vh;
+            max-width: 10vh;
+        }
+
+            .image1 a {
+                text-decoration: none;
+            }
+
+        .image2 {
+            max-height: 3vh;
+            max-width: 3vw;
+        }
+
+
+
+        .checkbtn {
+            display: block;
+            margin-right: 40px;
+            float: right;
+            margin-top: -40px;
+            cursor: pointer;
+        }
+
+        .sub-menu1 ul li:hover {
+            display: block;
+            margin-left: 15px;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .hover-me:hover .sub-menu2 {
+            display: block;
+            position: relative;
+            height: 100px;
+        }
+    }
+} 
+    
+            
+       
+
+
+   
+
+    
+    
+   
+    
+   
+
+
+
+
